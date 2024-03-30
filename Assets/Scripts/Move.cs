@@ -16,7 +16,6 @@ public class Move : MonoBehaviour
     public TextMeshProUGUI coinText, heartText;
     public GameObject failPanel;
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
