@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-    public void RestartLevel()
+    public void PlayClick()
     {
-        int currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentLevelIndex);
+        int nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(nextLevel);
+    }
+
+    public void QuitClick()
+    {
+        Application.Quit();
     }
 }

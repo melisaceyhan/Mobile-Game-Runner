@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Pink 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 77a310349bb432e4ea7a39ab297a6ce7, type: 2}
+  m_Parent: {fileID: 2100000, guid: f5163d4afb492df4c862f7bee9cfe9f7, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
