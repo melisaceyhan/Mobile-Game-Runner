@@ -79,6 +79,11 @@ public class Move : MonoBehaviour
             speed = 0;
             failPanel.SetActive(true);
         }
+        if(other.tag == "Celebrate")
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.up*700);
+            speed = 0;
+        }
         if (other.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
