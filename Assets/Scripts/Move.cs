@@ -81,7 +81,7 @@ public class Move : MonoBehaviour
         }
         if(other.tag == "Celebrate")
         {
-            GetComponent<Rigidbody>().AddForce(Vector3.up*700);
+            GetComponent<Rigidbody>().AddForce(Vector3.up*1000);
             speed = 0;
         }
         if (other.CompareTag("Coin"))
